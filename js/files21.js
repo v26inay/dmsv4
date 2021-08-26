@@ -1,0 +1,1 @@
+function validateFile(e){if(e.files[0].size/1024/1024>21)alert("Filesize must not exceed 21 MB."),$(e).val("");else{-1==$.inArray($(frmFil).val().split(".").pop().toLowerCase(),["pdf"])&&(alert("Allowed filetypes: PDF only."),$(frmFil).val(""))}}function files21(){}
