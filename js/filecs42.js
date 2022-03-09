@@ -1,1 +1,0 @@
-function validateFile(l){if(l.files[0].size/1024/1024>42)alert("Filesize must not exceed 42 MB."),$(l).val("");else{-1==$.inArray($(frmFil).val().split(".").pop().toLowerCase(),["pdf","doc","docx","xls","xlsx","ppt","pptx","msg","rar"])&&(alert("Allowed filetypes: PDF, Word, Excel, PowerPoint, OutlookMail and RAR."),$(frmFil).val(""))}}function filecs42(){}
